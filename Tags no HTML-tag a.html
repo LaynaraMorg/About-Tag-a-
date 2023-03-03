@@ -1,0 +1,78 @@
+
+<!-- saved from url=(0046)http://127.0.0.1:5500/desafio.html#%C3%ADnicio -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Tags no HTML</title>
+    </head>
+    <body>
+        <h1 id="ínicio" style="color: rgb(241, 125, 71);">Desbravando a tag &lt; a &gt;</h1>
+        <hr>
+        <h2 style="color: rgb(241, 125, 71);">Índice</h2>
+        <ul>
+            <li><a href="http://127.0.0.1:5500/desafio.html#Para%20que%20serve">Para que serve</a></li>
+            <li><a href="http://127.0.0.1:5500/desafio.html#Como%20usar">Como usar a Tag</a></li>    
+            <li><a href="http://127.0.0.1:5500/desafio.html#Exemplo">Exemplo de usabilidade</a></li>
+            <li><a href="http://127.0.0.1:5500/desafio.html#Conclus%C3%A3o">Conclusão</a></li>     
+
+            
+        </ul>
+        <h3 id="para que serve"><mark>Para que serve<mark></mark></mark></h3>
+        <p>Tendo em vista que inicialmente a principal ideia quando foi criado o HTML era facilitar o compartilhamento de documentos, mas, como consequência do avanço da programação, possuímos uma ferramenta que vai além do que podemos imaginar.
+
+            Ampliando a ideia de compartilhamento de documentos, atualmente, temos uma ferramenta que consegue vincular um link externo, por exemplo, dentro do nosso HTML.A tag <a> é usada para criar uma âncora de onde vincular, o atributo href é usado para onde endereçar o documento, e as palavras entre as tags de abertura e fechamento da âncora serão exibidas como um hipervínculo, ou seja, ela é responsável por vincular os demais documentos que o nosso HTML possui, links internos e externos.
+        </a></p><a>
+        <h3 id="Como usar"><mark>Como usar a tag</mark></h3>
+        </a><p><a>Para conseguirmos declarar essa tag, devemos incluir o atributo href e uma frase ou palavra dentro da tag. Além de href, a tag </a><a> possui alguns outros atributos, e cada um deles tem o seu papel específico. Esses atributos são: target e rel. </a><a>.</a></p><a>
+        </a><ol><a>
+            </a><li><a>Href:
+                Em primeiro lugar, temos o href (hypertext reference), em português, referência para hipertexto, que nada mais é do que a tag onde colocamos a URL do site que queremos vincular ao nosso HTML. É necessário adicionarmos a URL por completo, isso inclui o protocolo https. Ao incluirmos a URL do site desejado, basta colocarmos uma palavra ou frase entre o fechamento e abertura da tag </a><a>. Quando clicarmos nessa palavra/frase, seremos direcionados ao site vinculado. É possível também utilizarmos a tag </a><a> apenas para voltar ao topo da nossa página, para isso, inserimos uma cerquilha. </a></li><a>
+        <li>Rel:
+            Por fim, temos o atributo rel (relationship), em português, relação. É muito importante que saibamos que o atributo rel contém alguns valores, sendo eles distintos uns dos outros.</li>
+        </a></ol><a>
+        <h3 id="Exemplo"><mark>Exemplo</mark></h3>
+            <img width="400" src="./Tags no HTML-tag a_files/maxresdefault.jpg">
+            <h3 id="Conclusão"><mark>Conclusão</mark></h3>
+            </a><p><a>De acordo com o que foi exposto acima podemos entender que a tag &lt; a &gt; é utilizada para fazermos um link, ou seja, uma ponte entre contúdos diferentes, passando para outras páginas, para outras marcações abaixo da mesma página e por assim em diante, tornando fácil e dinâmico o acesso a aquela página.</a></p>
+        <a href="http://127.0.0.1:5500/desafio.html#%C3%ADnicio">Voltar ao ínicio</a>
+
+   
+            <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
